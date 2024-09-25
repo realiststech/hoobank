@@ -1,28 +1,34 @@
-import { arrowUp } from "../assets";
-import styles from "../style";
-const GetStarted = () => (
-  <a href="https://davimgfx.github.io/loginHoobank/" target="_blanket">
-    <div
-      className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}>
-      <div
-        className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}>
+import React from 'react';
+import styles from '../style';
+import { arrowUp } from '../assets';
+
+const GetStarted = () => {
+  const handleButtonClick = () => {
+    window.location.href = 'mailto:marketing@realist.tech';
+  };
+
+  return (
+    <div 
+      className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}
+      onClick={handleButtonClick}
+    >
+      <div className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}>
         <div className={`${styles.flexStart} flex-row`}>
-          <p className="font-poppins font-medium text-[18px] leading-[23px] mr-2">
-            <span className="text-white">Get</span>
+          <p className='font-poppins font-medium text-[18px] leading-[23px] mr-2'>
+            <span className='text-gradient'>Get</span>
           </p>
           <img
             src={arrowUp}
-            alt="arrowUp"
-            className="w-[32px] h-[23px] object-contain"
+            alt='arrow'
+            className='w-[23px] h-[23px] object-contain'
           />
         </div>
-
-        <p className="font-poppins font-medium text-[18px] leading-[23px]">
-          <span className="text-white">Started</span>
+        <p className='font-poppins font-medium text-[18px] leading-[23px]'>
+          <span className='text-gradient'>Started</span>
         </p>
       </div>
     </div>
-  </a>
-);
+  );
+};
 
 export default GetStarted;

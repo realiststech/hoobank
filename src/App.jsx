@@ -3,12 +3,12 @@ import {
   Billing,
   Business,
   CTA,
-  Clients,
+  /*Clients,*/
   Footer,
   Hero,
   Navbar,
   Stats,
-  Testimonials,
+  /*Testimonials*/
 } from "./components";
 import styles from "./style";
 
@@ -28,8 +28,13 @@ const App = () => (
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Stats /> <Business /> <Billing /> <Testimonials /> <Clients />
-        <CTA /> <Footer />
+        <Stats /> 
+        <Business /> 
+        <Billing /> 
+        {/* <Testimonials /> */} 
+        {/* <Clients /> */} 
+        <CTA /> 
+        <Footer />
       </div>
     </div>
   </div>

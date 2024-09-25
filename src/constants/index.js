@@ -1,4 +1,19 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { 
+  people01, 
+  people02, 
+  people03, 
+  facebook, 
+  instagram, 
+  linkedin, 
+  twitter, 
+  airbnb, 
+  binance, 
+  coinbase, 
+  dropbox, 
+  send, 
+  shield, 
+  star
+} from "../assets";
 
 export const navLinks = [
   {
@@ -11,35 +26,35 @@ export const navLinks = [
   },
   {
     id: "product",
-    title: "Product",
+    title: "Safety",
   },
-  {
+  /*{
     id: "clients",
     title: "Clients",
-  },
+  },*/
 ];
 
 export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Transfer money",
+    title: "Value",
     content:
-      "The best way to transfer money varies based on individual needs and preferences.",
+      "We offer the best value for your money. Our services are affordable and reliable compared to big brands",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We offer special security features to make sure your website is secure and protected from attacks.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Request loan",
+    title: "Free Demos | LIMITED TIME",
     content:
-      "A request for a loan can provide you with the financial means to purchase a wide range of items and fulfill your interests.",
+      "We are able to provide free demonstrations of what your website will look like before you make a purchase.",
   },
 ];
 
@@ -73,18 +88,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Consumers use smartphones for shopping",
+    value: "90%",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "of consumers search to find businesses",
+    value: "75%",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "website can increase company's credibility",
+    value: "78%",
   },
 ];
 
