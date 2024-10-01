@@ -4,7 +4,7 @@ import { arrowUp } from '../assets';
 
 const GetStarted = () => {
   const handleButtonClick = () => {
-    window.location.href = 'mailto:marketing@realist.tech';
+    window.location.href = '/getstarted';
   };
 
   return (

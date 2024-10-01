@@ -2,7 +2,7 @@ import React from 'react';
 
 const Button = ({ styles }) => {
   const handleButtonClick = () => {
-    window.location.href = 'mailto:marketing@realists.tech'; // Replace with your desired email address
+    window.location.href = '/getstarted';
   };
 
   return (
